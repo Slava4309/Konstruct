@@ -1,0 +1,21 @@
+.want {
+    min-height: 490px;
+    background: url(../img/bg2.jpg) center (center/cover) no-repeat;
+    &__title {
+        padding-top: 120px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0 auto;
+        text-align: center;
+        width: 350px;
+        letter-spacing: 0.15px;
+        color: #48555B;
+    }
+    button {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-top: 35px;
+    }
+}

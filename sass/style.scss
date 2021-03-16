@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 941px;
+    margin: 0 auto;
+}
+
+@import 'base/variables';
+@import 'blocks/promo';
+@import 'blocks/main';
+@import 'blocks/want';
+@import 'blocks/newsletter';
+@import 'blocks/footer';
+
+@import 'blocks/button';
+@import 'blocks/modal';

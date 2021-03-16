@@ -1,0 +1,21 @@
+.newsletter {
+    height:100px;
+    background-color: #171819;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+        &__title {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 30px;
+            letter-spacing: 0.846154px;
+            color: #FFFFFF;
+            margin-right: 70px;
+        }
+        input {
+            width: 250px;
+            height: 40px;
+        }
+    }
+}

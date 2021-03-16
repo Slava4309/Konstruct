@@ -1,0 +1,41 @@
+.promo {
+    min-height: 768px;
+    padding-top: 41px; 
+    background: url(../img/bg.jpg) center (center/cover) no-repeat;
+    header {
+        p {
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            letter-spacing: 5.70937px;
+            text-transform: uppercase;
+            animation: color 3s linear;
+        }
+        .title {
+            color: white;
+            padding-top: 317px;
+            font-size: 30px;
+            line-height: 70px;
+            text-align: center;
+            letter-spacing: 5.70937px;
+            animation: color 3s linear;
+        }
+        .subtitle {
+            color: white;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            animation: color 2.1s ease-in;
+            
+        }
+    }
+}
+@keyframes color {
+    0% {
+        color: black;
+    }
+    100% {
+        color: white;
+    }
+}
